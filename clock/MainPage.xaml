@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:clock="clr-namespace:clock"
+             x:Class="clock.MainPage" BackgroundColor="#4d4d4d" >
+
+    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center" Padding="10">
+
+
+
+        <clock:CustomClockCell x:Name="FirstHoursDisplay"></clock:CustomClockCell>
+        <clock:CustomClockCell x:Name="SecondHoursDisplay"></clock:CustomClockCell>
+        
+        <Label TextColor="Red" VerticalOptions="Center" FontSize="Header"  Text=":"/>
+
+        <clock:CustomClockCell x:Name="FirstMinDisplay"></clock:CustomClockCell>
+        <clock:CustomClockCell x:Name="SecondMinDisplay"></clock:CustomClockCell>
+
+        <Label TextColor="Red" VerticalOptions="Center" FontSize="Header" Text=":"/>
+
+        <clock:CustomClockCell x:Name="FirstSecDisplay"></clock:CustomClockCell>
+        <clock:CustomClockCell x:Name="SecondSecDisplay"></clock:CustomClockCell>
+
+
+    </StackLayout>
+
+</ContentPage>

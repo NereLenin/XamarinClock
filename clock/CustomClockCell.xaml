@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="clock.CustomClockCell">
+
+            <Grid HorizontalOptions="Center" VerticalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="3*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="3*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+        <Frame BorderColor="red" BackgroundColor="Red" CornerRadius="7" Padding="5" Grid.Row="0" Grid.ColumnSpan="3" x:Name="Segm1"></Frame>
+                
+        <Frame BorderColor="red" BackgroundColor="Red" CornerRadius="7" Padding="5" Grid.Row="1" Grid.Column="0" x:Name="Segm2"></Frame>
+        <Frame BorderColor="red" BackgroundColor="Red" CornerRadius="7" Padding="5" Grid.Row="1" Grid.Column="2" x:Name="Segm3"></Frame>
+
+        <Frame BorderColor="red" BackgroundColor="Red" CornerRadius="7" Padding="5" Grid.Row="2" Grid.ColumnSpan="3" x:Name="Segm4"></Frame>
+
+        <Frame BorderColor="red" BackgroundColor="Red" CornerRadius="7" Padding="5" Grid.Row="3" Grid.Column="0" x:Name="Segm5"></Frame>
+        <Frame BorderColor="red" BackgroundColor="Red" CornerRadius="7" Padding="5" Grid.Row="3" Grid.Column="2" x:Name="Segm6"></Frame>
+
+        <Frame BorderColor="red" BackgroundColor="Red" CornerRadius="7" Padding="5" Grid.Row="4" Grid.ColumnSpan="3" x:Name="Segm7"></Frame>
+            </Grid>
+
+
+</ContentView>
